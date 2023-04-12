@@ -25,8 +25,8 @@ par_o_impar(numero_1)
 
 //EJERCICIO 2 (Crear una función que reciba dos números por parámetro e indique en consola que número es mayor, y si ninguno lo es, indicar por consola que son iguales.)
 
-let numero_2 = prompt("EJERCICIO 2 : Ingrese el numero 1");
-let numero_3 = prompt("EJERCICIO 2 : Ingrese el numero 2");
+let numero_2 = prompt("EJERCICIO 2 : Ingrese el Numero 1");
+let numero_3 = prompt("EJERCICIO 2 : Ingrese el Numero 2");
 function mayor_menor_igual(num1,num2) {
     
    if (num1 > num2 ) {
@@ -45,7 +45,8 @@ function mayor_menor_igual(num1,num2) {
 mayor_menor_igual(numero_2,numero_3)
 
 
-//EJERCICIO 3 (Crear una función que reciba un número por parámetro e indique en consola si ese número es múltiplo de 5.)
+/* EJERCICIO 3 (Crear una función que reciba un número por parámetro 
+e indique en consola si ese número es múltiplo de 5.) */
 
 let numero_4 = prompt("EJERCICIO 3 : Ingrese un numero para comprobar si es o no , multiplo de 5");
 function multiplode5 (num) {
@@ -125,9 +126,7 @@ function ejercicio8(num,num1) {
 
     for (let i = 0; i < num.length; i++) {
         console.log(num[i]*num1);
-        
+          }
     }
-    
-}
 
 ejercicio8(array8,multiplicador)
